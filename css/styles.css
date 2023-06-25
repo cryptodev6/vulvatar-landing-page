@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#footer_fondo {
+  align-self: flex-end;
+  margin-bottom: -8px;
+}
+.footer_vivesintabu {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#section1 {
+  background-color: #FE73A8;
+  background-image: url('assets/challenge_vulvatar/Estrellas.png');
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+}
+
+#section2 {
+  background-color: #6C58CE;
+}
+
+#section3 {
+    background-color: #FE73A8;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; 
+    min-height: 100%;*/
+
+}
+@media only screen and (max-width: 767px) {
+  #section3 {
+    height: auto;
+    padding: 0;
+  }
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.image {
+	width: 100%;
+}
+
+#section1 p {
+  margin-top: 20px;
+  /*font-size: 1.5rem;*/
+  line-height: 1.5;
+}
+
+#section1 .quote {
+  /*font-size: 3rem;*/
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#section1 .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#section1 .image-container img {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px;
+}
+
+.image-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.header_obras {
+  height: 395px;
+  width: 659px !important;
+  flex: none;
+  max-width: 100%;
+}
+
+.header_vulvatar {
+  height: 393px;
+  width: 802px !important;
+  flex: none;
+  max-width: 100%;
+}
+
+.button {
+      background-color: #ed0000;
+    border-radius: 25px;
+    border: 1px solid #ed0000;
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    /*font-family: 'Montserrat Black', sans-serif;*/
+    text-transform: uppercase;
+    /*font-size: 1.5rem;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text-container {
+      margin-top: -42px;
+}
+
+.second_text {
+  color: #fff;
+  font-size: 9pt;
+  /*font-family: 'Montserrat Bold', sans-serif;
+  font-size: 9pt;*/
+}
+
+.third_text {
+  /*color: #6c57ce;*/
+  color: #FFFFFF;
+  font-size: 16pt;
+  font-weight: bold;/*
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 16pt;*/
+}
+
+.fourth_text {
+  color: #EE0000;
+  font-size: 16pt;
+  font-weight: bold;/*
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 16pt;*/
+}
+
+/* Adjust section height for mobile */
+@media only screen and (max-width: 767px) {
+  .section {
+    height: 100vh;
+  }
+
+  #section1 {
+    padding-top: 0;
+  }
+}
+
+.disclaimer {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-bayer {
+	float: left;
+
+}
+
+.container-text-disclaimer {
+	float: left;
+    width: 70%;
+    font-size: 10px;
+    margin-left: 21px;
+    text-align: justify;
+}
+
+#logo-bayer {
+	width: 92px;
+	height: 92px;
+}
+
+/*TODO: Add estrellas background to all website, not only section1*/
+.download-button {
+	margin-top: 20px;
+}
